@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useMotionValue, useMotionTemplate, animate } from "framer-motion";
 import { motion } from "motion/react"
 import Image from "next/image";
-import { Main } from "next/document";
+
 import { FiArrowRight } from "react-icons/fi";
 
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
@@ -43,7 +43,7 @@ const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
     
         <Image 
         className="rounded-full border-1 border-gray-600 opacity-90"
-          src="/Main.png" 
+          src="/profilepic.png" 
           alt="Main image" 
           width={250} 
           height={250} 
